@@ -1,5 +1,6 @@
 function timeout(ms) {
   return new Promise((resolve, reject) => {
+    throw new Error("err");
     setTimeout(resolve, ms, 'done');
     setTimeout(reject, ms, 'no done');
   });
