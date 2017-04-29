@@ -1,0 +1,23 @@
+{
+  "name": "add_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TryAssert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/znbwo/tryEs6.git"
+  },
+  "author": "znb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/znbwo/tryEs6/issues"
+  },
+  "homepage": "https://github.com/znbwo/tryEs6#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
